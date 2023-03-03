@@ -1,4 +1,4 @@
-payrate = input("Salario por hora:")
-hours   = input("Cantidad de horas trabajadas:")
+payrate = input("Payrate:")
+hours   = input("Hours worked:")
 payment = float(payrate) * float(hours)
-print ("Pago:", payment,"€")
+print ("Total payment:", payment,"€")
