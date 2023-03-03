@@ -3,7 +3,6 @@ vi = int(input("Porcentaje a alcanzar: "))
 for num in range (vi):
     print (f"Loading...{num}%")
     time.sleep (0.3)
-    num += 1
 print("Ready")
 
 #updated based on feedback from:
