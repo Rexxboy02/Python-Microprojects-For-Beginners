@@ -1,6 +1,6 @@
 import time
 var1 = 0
-vi = input("Porcentaje a alcanzar:")
+vi = input("Percentage to achieve:")
 while var1 != int(vi) + 1:
     print ("Loading...", var1,"%")
     #(a = a + b)  Es lo mismo que... (a += b)
