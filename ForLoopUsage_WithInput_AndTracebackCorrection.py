@@ -1,5 +1,6 @@
 import time
 error = 0
+#added while-loop + try-except to handle errors when entering strings with text on the input
 while error == 0 :
     try:
         vi = int(input("Porcentaje a alcanzar: "))
@@ -9,6 +10,10 @@ while error == 0 :
         print("Ready")
         error = 1
     except:
-        print("Solo se permite el uso de números, por favor, introduzca el valor numérico:")
-#mejorado en base a feedback de:
+        print("Only numbers are allowed, please, enter a number:")
+        
+#updated based on:
 #https://www.reddit.com/r/learnpython/comments/11gxdfq/first_project_ive_done/
+#https://www.freecodecamp.org/learn/scientific-computing-with-python/python-for-everybody/more-conditional-structures
+
+#this script runs a countdown until it reaches the number from the input
