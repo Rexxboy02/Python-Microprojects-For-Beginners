@@ -6,5 +6,5 @@ for num in range (vi):
     num += 1
 print("Ready")
 
-#mejorado en base a feedback de:
+#updated based on feedback from:
 #https://www.reddit.com/r/learnpython/comments/11gxdfq/first_project_ive_done/
