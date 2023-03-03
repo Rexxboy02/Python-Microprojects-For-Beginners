@@ -3,7 +3,7 @@ error = 0
 #added while-loop + try-except to handle errors when entering strings with text on the input
 while error == 0 :
     try:
-        vi = int(input("Porcentaje a alcanzar: "))
+        vi = int(input("Target percentage: "))
         for num in range (vi):
             print (f"Loading...{num + 1}%")
             time.sleep (0.3)
